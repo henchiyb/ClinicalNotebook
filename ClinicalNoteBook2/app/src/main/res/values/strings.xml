@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ClinicalNotebook</string>
+    <string name="action_search">Search</string>
+    <string name="save_action">Save</string>
+    <string name="context_menu_delete">Delete</string>
+    <string name="context_menu_edit">Edit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="note">Note</string>
+    <string name="text_here">Text here ...</string>
+    <string name="name">Name</string>
+    <string name="file_name">File name:</string>
+    <string name="folder">Folder:</string>
+    <string name="folder_name">Folder name:</string>
+    <string name="note_name">Note name</string>
+    <string name="new_folder">New Folder</string>
+    <string name="being_dev">Being Developed</string>
+    <string name="btn_note">NOTE</string>
+    <string name="btn_image">IMAGE</string>
+    <string name="btn_voice">VOICE</string>
+    <string name="clinical_notebook">CLINICAL NOTEBOOK</string>
+    <string name="no_record">No Record</string>
+
+</resources>

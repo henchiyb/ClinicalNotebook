@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.example.nhan.clinicalnotebook2.utils.SquareLayout
+            android:id="@+id/rl"
+            android:background="@drawable/bg_note"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/large_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_image_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_title"
+                android:layout_margin="15dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/normal_text_size" />
+            <TextView
+                android:id="@+id/item_record_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_image_number"
+                android:layout_margin="15dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/normal_text_size" />
+
+
+        </com.example.nhan.clinicalnotebook2.utils.SquareLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
